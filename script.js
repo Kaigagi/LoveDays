@@ -1,5 +1,5 @@
 //gắn vào thẻ id "date"
-let dateBegin = new Date(2018,10,21,23,59,59,59).getTime()
+let dateBegin = new Date(2017,04,01,23,59,59,59).getTime()
 function updateDate() {
     let dateShow = document.getElementById("date")
     let dateNow = Date.now()
