@@ -69,12 +69,39 @@ body, html{
 }
 #daybegin{
     position: absolute;
-    right: 30%;
-    bottom: 20%;
+    right:18%;
+    bottom: 25%;
     border: none;
     background-color:#ffcce6;
-    width: 200px;
+    width: 400px;
+    height: 70px;
     text-align: center;
     border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#daybegin p{
+    font-size: 28px;
+    color: #ff4d4d;
+    position: absolute;
+    font-weight: bolder;
+    right: 10%;
+    bottom: 23%;
+    margin: 0;
+}
+.countdate{
+    border: none;
+    border-radius: 30px;
+    text-align: center;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    height: 200px;
+    width: 900px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 2%;
+    bottom: 38%;
+}
+.countdate p{
+    margin-top: 8%;
+    font-size: 40px;
+    color: #ff4d4d;
 }
